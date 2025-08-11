@@ -85,7 +85,7 @@
 ### 📈 Results | نتایج
 
 - Test Accuracy after Transfer Learning: ~89%
-- Test Accuracy after Fine-Tuning: ~96%  
+- Test Accuracy after Fine-Tuning: ~91%  
 - Validation Accuracy Curve: steady improvement after fine-tuning  
 - Validation Loss Curve: loss decreases steadily until convergence
 
