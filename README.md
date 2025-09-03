@@ -9,10 +9,10 @@
 - [Dataset](https://www.kaggle.com/datasets/saadpd/menwomen-classification)  
   Men vs Women Classification Dataset (Kaggle)
 
-- [View project in Google Colab](https://colab.research.google.com/drive/1URIqEEJLyPI70XGXVyKUEBLAIYxjY09U?usp=sharing)
+- [View project in Google Colab](https://colab.research.google.com/drive/1URIqEEJLyPI70XGXVyKUEBLAIYxjY09U?usp=sharing)  
   Google Colab Notebook: Run the project online
 
-- [View project in GitHub](https://github.com/eliram88/Men_women_detection)
+- [View project in GitHub](https://github.com/eliram88/Men_women_detection)  
   GitHub Repository: Source code & documentation
 
 
