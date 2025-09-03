@@ -116,11 +116,11 @@ Men_women_detection/
 │   └── test/
 │
 ├── 📁 notebook/
-│   └── Men_women_detection           # Data analysis & model training
+│   └── Men_women_detection        # Data analysis & model training
 │
-├── 📄 README.md                      # Project documentation
+├── 📄 README.md                   # Project documentation
 │
-├── requirements.txt		     # Project Libraries
+├── requirements.txt		           # Project Libraries
 ```
 
 
