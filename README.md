@@ -120,7 +120,7 @@ Men_women_detection/
 │
 ├── 📄 README.md                   # Project documentation
 │
-├── requirements.txt		           # Project Libraries
+├── requirements.txt		         # Project Libraries
 ```
 
 
