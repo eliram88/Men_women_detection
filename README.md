@@ -1,23 +1,23 @@
 # Men-Women Detection using Transfer Learning & Data Augmentation
 
-🎯 هدف پروژه: تشخیص تصاویر مرد و زن با استفاده از مدل از پیش آموزش‌دیده **VGG16** و تکنیک‌های **Transfer Learning** و **Data Augmentation** در Keras/TensorFlow.
+🎯 Project Goal: Classify images of men and women using a pre-trained VGG16 model with Transfer Learning and Data Augmentation techniques in Keras/TensorFlow.
 
 
 
-## 🌐 لینک ها
+## 🌐 Links
 
-- [دیتاست پروژه](https://www.kaggle.com/datasets/saadpd/menwomen-classification)  
-  دیتاست تصاویر مرد و زن از سایت Kaggle
+- [Dataset](https://www.kaggle.com/datasets/saadpd/menwomen-classification)  
+  Men vs Women Classification Dataset (Kaggle)
 
-- [مشاهده پروژه در Google Colab](https://colab.research.google.com/drive/1URIqEEJLyPI70XGXVyKUEBLAIYxjY09U?usp=sharing)  
-  اجرای آنلاین کد پروژه در محیط Google Colab
+- [View project in Google Colab](https://colab.research.google.com/drive/1URIqEEJLyPI70XGXVyKUEBLAIYxjY09U?usp=sharing)
+  Google Colab Notebook: Run the project online
 
-- [مشاهده پروژه در GitHub](https://github.com/eliram88/Men_women_detection)  
-  سورس کد و مستندات پروژه در GitHub
+- [View project in GitHub](https://github.com/eliram88/Men_women_detection)
+  GitHub Repository: Source code & documentation
 
 
 
-## 🔧 ابزارهای استفاده‌شده
+## 🔧 Tools & Libraries
 
 - Python (NumPy, TensorFlow, Matplotlib, Keras, OS)
 - Google Colab
@@ -27,7 +27,7 @@
 
 
 
-## 📊  دیتاست
+## 📊  Dataset
 
 - **Source:** Men vs Women Classification dataset (Kaggle)  
 - **Samples:**  
@@ -40,22 +40,22 @@
 
 
 
-## 📊 مراحل پروژه
+## 📊 Project Stages
 
 
-### 🛠 Preprocessing | پیش‌پردازش
+### 🛠 Preprocessing
 
-- دانلود دیتاست از Kaggle  
-- ساختاردهی پوشه‌ها برای train / validation / test  
-- بارگذاری داده با `image_dataset_from_directory` در سایز `(180, 180)` پیکسل  
-- اعمال Data Augmentation شامل:  
+- Downloaded dataset from Kaggle 
+- Structured directories into train / validation / test 
+- Loaded images using image_dataset_from_directory with size (180, 180) 
+- Applied Data Augmentation:  
   - Random Flip  
   - Random Rotation (0.1)  
   - Random Zoom (0.2)  
-- نمایش نمونه تصاویر همراه با برچسب
+- Displayed sample images with labels
 
 
-### 🧠 Model Design | طراحی مدل
+### 🧠 Model Design
 
 - Base Model: **VGG16** (pre-trained on ImageNet, include_top=False)  
 - Layers:  
@@ -65,7 +65,7 @@
   - Dense(1, activation="sigmoid")  
 
 
-### ⚙ Training | آموزش
+### ⚙ Training
  
 **Phase 1 — Transfer Learning**  
 - Base model frozen  
@@ -82,7 +82,7 @@
 - Callback: ModelCheckpoint (best val_loss) 
 
 
-### 📈 Results | نتایج
+### 📈 Results
 
 - Test Accuracy after Transfer Learning: ~89%
 - Test Accuracy after Fine-Tuning: ~91%  
@@ -91,14 +91,14 @@
 
 
 
-## 🚀 نحوه اجرا
+## 🚀 How to Run
 
-1) Install dependencies | نصب کتابخانه‌ها
+1) Install dependencies
 ```bash
 pip install tensorflow numpy matplotlib
 ```
 
-2) Run Jupyter Notebook | اجرای نوت‌بوک
+2) Run Jupyter Notebook
 ```bash
 jupyter notebook
 ```
@@ -106,7 +106,7 @@ Open the file Men_women_detection.ipynb and run all cells.
 
 
 
-## 📁 ساختار فایل‌ها
+## 📁 Project Structure
 ```bash
 Men_women_detection/
 │
@@ -125,9 +125,10 @@ Men_women_detection/
 
 
 
-## 🧑‍💻 توسعه‌دهنده
+## 🧑‍💻 Developer
 
-این پروژه توسط یک علاقه‌مند به بینایی ماشین و یادگیری عمیق طراحی و اجرا شده
-با هدف توسعه مهارت در Computer Vision و کار با مدل‌های از پیش آموزش‌دیده.
+This project was developed by a computer vision and deep learning enthusiast with the goal of:
 
-✨ هدف: توسعه نمونه‌کار قابل ارائه، تمرین در پروژه‌های بینایی ماشین، یادگیری پیاده‌سازی حرفه‌ای و بهینه‌سازی مدل
+- Enhancing skills in image classification & transfer learning
+- Building a professional portfolio project
+- Practicing model optimization for real-world datasets
